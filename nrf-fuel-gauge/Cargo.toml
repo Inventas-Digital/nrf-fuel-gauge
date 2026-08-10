@@ -1,0 +1,9 @@
+[package]
+name = "nrf-fuel-gauge"
+version = "0.1.0"
+edition = "2021"
+description = "Safe Rust wrapper around Nordic's nRF Fuel Gauge library (secondary-cell variant, Cortex-M4 hard-float)"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+nrf-fuel-gauge-sys = { path = "../nrf-fuel-gauge-sys" }

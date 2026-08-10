@@ -1,0 +1,11 @@
+[package]
+name = "nrf-fuel-gauge-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Low-level FFI bindings to Nordic Semiconductor's nRF Fuel Gauge library (secondary-cell variant, Cortex-M4 hard-float)"
+license = "MIT OR Apache-2.0"
+links = "nrf_fuel_gauge"
+build = "build.rs"
+
+[build-dependencies]
+cc = "1"

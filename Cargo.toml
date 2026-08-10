@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = [
+    "nrf-fuel-gauge-sys",
+    "nrf-fuel-gauge",
+]
